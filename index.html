@@ -32,7 +32,12 @@
                 <div class="columnas2">
                     <p>Would you like to help make purchases for those who cannot leave their homes? Offer yourself.</p>
                     <div class="butt">
-                        <button>Start helping now</button>
+                        <button id="offer">Start helping now</button>
+                        <script type="text/javascript">
+                            document.getElementById("offer").onclick = function () {
+                                location.href = "form.html";
+                            };
+                        </script>
                     </div>
                 </div>
             </div>
