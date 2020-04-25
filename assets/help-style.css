@@ -1,0 +1,65 @@
+body, html{
+    
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat';font-size: 27px;
+    font-weight: bold;
+    background-image: url(img/background.png);
+    background-size: auto;
+}
+h1{
+    color: #ff8c00;
+}
+
+
+.headmarket{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.buscayoferece{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+button{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    border-radius: 8px;
+    background-color: black;
+    padding: 12px;
+    color: white;
+    border: black;
+    font-weight: 500;
+}
+
+.columnas1{
+    padding-left: 8em;
+    padding-right: 2em;
+}
+
+.columnas2{
+    padding-left: 2em;
+    padding-right: 8em;
+}

@@ -7,8 +7,8 @@
         <meta name="author" content="" />
         <title>Confinamarket</title>
         <!-- Favicon-->
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
         
         <link rel="stylesheet" type="text/css" href="assets/style.css">
         
@@ -21,7 +21,12 @@
                 <div class="columnas1">
                     <p>Do you need to do the weekly shopping and can't leave the house? Find someone to do it for you.</p>
                     <div class="butt">
-                        <button>Look for help</button>
+                        <button id="help">Look for help</button>
+                        <script type="text/javascript">
+                            document.getElementById("help").onclick = function () {
+                                location.href = "help.html";
+                            };
+                        </script>
                     </div>
                 </div>
                 <div class="columnas2">
