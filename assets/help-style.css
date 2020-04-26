@@ -28,3 +28,52 @@ body, html{
 .back{
     height: 50px;
 }
+
+.people{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 5em;
+    padding-bottom: 2em;
+}
+
+.person1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(1,1,1,0.5);
+    padding: 1em 2em 1em 2em;
+}
+
+.phone{
+    padding-top: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+img{
+    height: 200px;
+}
+.photophone{
+    height: 50px;
+    padding-left: 1em;
+}
+.photomail{
+    height: 50px;
+    padding-right: 1em;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
