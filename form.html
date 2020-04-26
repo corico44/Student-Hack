@@ -14,7 +14,11 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     </head>
     <body>
-
+        <div class="goback">
+            <a href="index.html">
+                <img class="back"src="assets/img/back.png">
+            </a>
+        </div>
         <div class="divform">
             <form method="GET" action="http://localhost/login" class="formulario">
               <label for="name" >What is your name?</label>
@@ -25,11 +29,8 @@
               <input type="text" id="email" name="email">
               <label for="phone">What is your phone number?</label>
               <input type="text" id="phone" name="phone">
-			  <input type="submit" value="Submit">
+			  <input id="sub" type="submit" value="Submit">
             </form>
-            <div class="butt">
-                <button type="button" onclick="javascript:main();">Publish</button>
-            </div>
 			<p id="demo"></p>
 			
         </div>

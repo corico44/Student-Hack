@@ -18,3 +18,13 @@ body, html{
     align-items: center;
     height: 600px;
 }
+.goback{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.back{
+    height: 50px;
+}
